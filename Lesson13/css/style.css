@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest Guy|Raleway');
+html, body{
+	height: 100%;
+}
+
+/*@font-face{
+	src: url(luckiestguy.ttf);
+	font-family: "Luckiest Guy";
+}*/
+
+#cover{
+	background: #222222 url("../img/fortnite.jpg") center center no-repeat;
+	background-size: cover;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	color: #fff;
+	text-align: center;
+}
+.cover-caption{
+	width: 100%;
+}
+
+img{
+	width: 100%;
+}
+.cover-caption h1{
+	font-family: "Luckiest Guy", Raleway;
+	text-shadow: 4px 4px 50px black;
+}
+.nav navbar-nav:hover {
+    transition: all 0.5s;
+}
+
+.serv-head{
+	font-family: "Luckiest Guy";
+	text-align: center;
+	padding-top: 20px;
+}
+
+#footer{
+	width: 100%;
+	background-color: #13293c;
+	margin-top: 50px;
+}
+
+.menu1 a, p, h2{
+	color: #cccdcd;
+	text-decoration: none;
+	transition: all 0.2s ease-out;
+}
+
+.menu1{
+	padding-top: 20px;
+}
+.menu1 li {
+	list-style: none;
+}
+.slogan{
+	font-family: "Luckiest Guy";
+	font-size: 30px;
+	padding-top: 20px;
+}
+
+.menu1 li:hover a{
+	color: #fff;
+	transition: all 0.2s ease-out;
+} 
+.card-text {
+	color: #7a6262;
+}
+#boimg {
+	width: 550px;
+	height: 500px;
+	text-align: center;
+	margin-left: 410px;
+	padding-bottom: 45px;
+}
+
+.vazov {
+	font-family: Raleway;
+	color: #7a6262;
+	max-height: 95%;
+}
+.name {
+	color: grey;
+}
