@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Luckiest Guy|Raleway');
 html, body{
 	height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 /*@font-face{
@@ -20,7 +22,10 @@ html, body{
 .cover-caption{
 	width: 100%;
 }
+.cover-caption p {
+	color: white;
 
+}
 img{
 	width: 100%;
 }
@@ -28,8 +33,9 @@ img{
 	font-family: "Luckiest Guy", Raleway;
 	text-shadow: 4px 4px 50px black;
 }
-.nav navbar-nav:hover {
-    transition: all 0.5s;
+.nav-link:hover {
+    transition: all 0.3s ease-out;
+    color: #fff;
 }
 
 .serv-head{
@@ -49,7 +55,6 @@ img{
 	text-decoration: none;
 	transition: all 0.2s ease-out;
 }
-
 .menu1{
 	padding-top: 20px;
 }
@@ -71,15 +76,18 @@ img{
 }
 #boimg {
 	text-align: center;
-	/*padding-bottom: 45px;
-	*/
 }
 
 .vazov {
 	font-family: Raleway;
 	color: #7a6262;
-	/*max-height: 95%;*/
 }
 .name {
 	color: grey;
+}
+.joker {
+		color: #fff;
+}
+ul {
+	text-align: center;
 }
